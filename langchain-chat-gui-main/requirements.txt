@@ -1,4 +1,4 @@
-chatopenai
+ChatOpenAI
 cryptography==40.0.2
 importlib_metadata==6.6.0
 Jinja2==3.1.2
