@@ -34,7 +34,7 @@ def init():
 def main():
     init()
 
-    chat = ChatOpenAI(temperature=100)
+    chat = ChatOpenAI(temperature=0)
 
     # initialize message history
     if "messages" not in st.session_state:
