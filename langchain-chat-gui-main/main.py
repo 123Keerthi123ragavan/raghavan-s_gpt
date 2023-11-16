@@ -1,6 +1,6 @@
 # python 3.8 (3.8.16) or it doesn't work
 # pip install streamlit streamlit-chat langchain python-dotenv
-from pydantic import BaseModel
+
 import streamlit as st
 from streamlit_chat import message
 from dotenv import load_dotenv
@@ -12,8 +12,7 @@ from langchain.schema import (
     HumanMessage,
     AIMessage
 )
-class ChatOpenAI(BaseModel):
-    temperature: float
+
 
 def init():
     # Load the OpenAI API key from the environment variable
